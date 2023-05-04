@@ -37,7 +37,7 @@ public class project1 {
 
     public static Integer check(   Integer [] arr)
     {
-        Integer Result;
+        Integer Result = 0;
         ArrayList<Integer> data=new ArrayList<>(Arrays.asList(arr));
         System.out.println("my data :"+data);
         data.removeIf(element->((element<=0))); //to  remove the element less than or equal zero
@@ -62,7 +62,7 @@ public class project1 {
 
         }
 
-        return Result ;
+        return Result;
 
     }
 }
