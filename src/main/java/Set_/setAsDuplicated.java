@@ -32,6 +32,7 @@ public class setAsDuplicated {
           {
              list.add(a[i]);
           }
+        System.out.println("list with out duplicated ");
         System.out.println(list);
 
 

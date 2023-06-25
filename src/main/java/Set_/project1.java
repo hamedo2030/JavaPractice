@@ -65,4 +65,7 @@ public class project1 {
         return Result;
 
     }
+    public static void problem(){
+
+    }
 }
